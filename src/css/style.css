@@ -4,65 +4,6 @@
     padding: 0;
     border: 0
 }
-nav {
-    background: #615E5E;
-    text-align: center;
-    height: 44px;
-}
-.logo {
-    display: inline-block;
-    color: white;
-    font-size: 23px;
-    padding: 9px;
-    font-weight: bolder;
-}
-.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-    font-size: 23px;
-    padding: 9px;
-    color: white;
-    text-decoration: inherit
-}
-.icon:hover {
-    background-color: #ddd;
-    color: black;
-}
-.links {
-    display: none;
-}
-.links a {
-    display: block;
-    text-align: center;
-    padding: 15px 15px;
-    color: white;
-    text-decoration: inherit;
-    background: #615E5E;
-    position: relative;
-    z-index: 1;
-    height: 15vh;
-    font-size: 39px;
-    font-style: italic;
-}
-.links a:hover {
-    background-color: #ddd;
-    color: black;
-}
-.psyduck {
-    text-align: center;
-}
-#psyduck {
-    height: 54.5vh;
-}
-.h1 {
-    position: relative;
-    text-align: center;
-    padding: 12px 25px;
-}
-.h1 p:first-of-type {
-    padding-top: 12px;
-}
-body {
-    display: block;
+.checked {
+    color: orange;
 }
