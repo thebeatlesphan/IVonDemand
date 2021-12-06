@@ -12,54 +12,30 @@
     <script defer src="src/js/login.js"></script>
 </head>
 <body class="container-fluid">
-    <div class="container" style="height:90vh;">
+    <div class="container">
         <nav class="navbar navbar-expand-md navbar-light">
-            <a href="index.html" class="navbar-brand">
-                IVonDemand</a>
-<!--        <button class="navbar-toggler"-->
-<!--                type="button"-->
-<!--                data-bs-toggle="collapse"-->
-<!--                data-bs-target="#toggleMobileMenu"-->
-<!--                aria-controls="toggleMobileMenu"-->
-<!--                aria-expanded="false"-->
-<!--                aria-label="Toggle Navigation"-->
-<!--        >-->
-<!--            <span class="navbar-toggler-icon"></span>-->
-<!--        </button>-->
-<!--        <div class="collapse navbar-collapse" id="toggleMobileMenu">-->
-<!--            <ul class="navbar-nav ms-auto text-center">-->
-<!--                <li>-->
-<!--                    <a class="nav-link" href="#">Contact</a>-->
-<!--                </li>-->
-<!--                <li>-->
-<!--                    <a class="nav-link" href="#">Cart</a>-->
-<!--                </li>-->
-<!--                <li>-->
-<!--                    <a class="nav-link" href="login.html">Login</a>-->
-<!--                </li>-->
-<!--            </ul>-->
-<!--        </div>-->
+            <a href="index.html" class="navbar-brand">IVonDemand</a>
         </nav>
 
-        <div class="text-center mt-5 border" style="max-width:500px; margin:auto">
-            <form style="max-width:360px; margin:auto">
+        <div class="text-center mt-5 pt-3 border" style="max-width:500px; margin:auto">
+            <form id="form-id" style="max-width:360px; margin:auto">
                 <h1>IV on Demand</h1>
                 <h5>Please sign in</h5>
                 <label for="emailAddress" class="sr-only">Email Address</label>
-                <input  type="email" id="emailAddress" class="form-control mb-3" placeholder="Email Address" required autofocus>
+                <input type="email" id="emailAddress" class="form-control mb-3" placeholder="Email Address" required autofocus>
                 <label for="password" class="sr-only">Password</label>
-                <input type="text" id="password" placeholder="Password" class="form-control mb-3">
+                <input type="password" id="password" placeholder="Password" class="form-control mb-3" title="hotdog">
                 <div class="checkbox mb-3">
                     <label>
                         <input type="checkbox" value="remember-me"> Remember me
                     </label>
                 </div>
-                <button class="btn btn-lg btn-primary col-12 mb-2">Sign In</button>
+                <button class="btn btn-lg btn-primary col-12 mb-2" type="submit">Sign In</button>
                 <p>Not a member? <a href="#">Sign up!</a></p>
             </form>
         </div>
     </div>
-    <footer class="container-fluid bg-light text-center">
+    <footer class="container-fluid bg-light justify-content-center navbar fixed-bottom">
         <div class="d-flex justify-content-center pt-4 mb-2">
             <a href="" class="me-4 text-reset">
                 <i class="bi bi-facebook"></i>
@@ -80,8 +56,8 @@
                 <i class="bi bi-github"></i>
             </a>
         </div>
-        <div>
-            <p class="mb-0">© 2021 Copyright: phandy</p>
+        <div class="col-12">
+            <p class="mb-0 text-center">© 2021 Copyright: phandy</p>
         </div>
     </footer>
 </body>
