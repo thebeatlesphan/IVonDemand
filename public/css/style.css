@@ -1,0 +1,45 @@
+/*Remove padding and margin*/
+*   {
+    margin: 0;
+    padding: 0;
+    border: 0
+}
+nav {
+    background: #615E5E;
+    text-align: center;
+    height: 44px;
+}
+.logo {
+    display: inline-block;
+    color: white;
+    font-size: 23px;
+    padding: 9px;
+}
+.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 23px;
+    padding: 9px;
+    color: white;
+    text-decoration: inherit;
+}
+.icon:hover {
+    background-color: #ddd;
+    color: black;
+}
+.links {
+    display: none;
+}
+.links a {
+    display: block;
+    text-align: right;
+    padding-right: 9px;
+    color: white;
+    text-decoration: inherit;
+    background: #615E5E;
+}
+.links a:hover {
+    background-color: #ddd;
+    color: black;
+}
